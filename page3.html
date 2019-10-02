@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Octopus</title>
+    <link rel="stylesheet" href="main.css">
+
+<style>
+body { background-color:rgb(149, 240, 209); font-family: "verdana", sans-serif; font-style:normal; }
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h3 {  background-color:white; text-decoration:underline; line-height:3; font-size:40px; 
+			font-family: "verdana", sans-serif; font-style:normal; text-align:center; }
+.list-senpai { font-size:30px; font-family: "lucida console" , monospace; }
+
+.sidenav { font-family: "Georgia" , serfif; font-size:14.8px; }
+
+</style>
+</head>
+<body>
+    <!--Menu Bar-->
+    <div>
+        <ul class="sidenav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page1.html">Types of Octopus</a></li>
+            <li><a href="page2.html">Habitats and Feeding</a></li>
+            <li><a href="page3.html" class="active">Sources and More Info</a></li>
+        </ul>
+    </div>
+
+    <h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+    
+ <h3>Sources Used And More Information At:</h3> 
+
+<ul class="list-senpai">
+   <li><a href="https://www.livescience.com/55478-octopus-facts.html" class="link-one" target="blank">Homepage Source</a></li>   
+   <li><a href="https://octopusworlds.com/types-of-octopuses/" class="link-one" target="blank">Types of Octopus Source</a></li>
+   <li><a href="https://octopusworlds.com/octopus-habitat/" class="linkypoo" target="blank">Habitats and Feeding Source 1</a></li>
+   <li><a href="https://octopusworlds.com/octopus-feeding/" class="linkypoo" target="blank">Habitats and Feeding Source 2</a></li>
+</ul>
+</body>
+
+</html>
